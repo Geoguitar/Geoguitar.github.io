@@ -1,2 +1,5 @@
 # Geoguitar.github.io
-Estou iniciando neste novo recurso do git pages
+
+![Github Pages](./img_html5.jpeg)
+
+Aprimorar conhecimentos com práticas em Github pages.
