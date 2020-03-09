@@ -7,5 +7,27 @@
 	color: #ffffff;
 	padding-top: 300px;
 	padding-bottom: 300px;
+}
 
+.content-site{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.img-site{
+	background-image: url(../img/big-data.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: #ffffff;
+}
+
+.footer-site{
+	background-color: #333333;
+	color: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
