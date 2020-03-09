@@ -1,0 +1,11 @@
+.header-site{
+	background-image: url(../img/big-data3.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+	padding-top: 300px;
+	padding-bottom: 300px;
+
+}
