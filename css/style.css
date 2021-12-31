@@ -5,8 +5,8 @@
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ffffff;
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 20px;
+	padding-bottom: 275px;
 }
 
 .content-site{
@@ -33,7 +33,25 @@
 }
 
 div img {
-	width: 300px;
-	height: 300px;
+	width: 250px;
+	height: 250px;
 	overflow: auto;
+}
+
+.foto_perfil img {
+	height: 2rem;
+}
+
+.foto_perfil {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+	
+	margin: auto;
+}
+
+.col-xs-12 {
+	margin-left: 40px;
 }
