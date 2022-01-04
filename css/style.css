@@ -5,8 +5,8 @@
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ffffff;
-	padding-top: 20px;
-	padding-bottom: 275px;
+	padding-top: 150px;
+	padding-bottom: 300px;
 }
 
 .content-site{
@@ -33,8 +33,8 @@
 }
 
 .div img {
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	overflow: auto;
 }
 
@@ -48,10 +48,12 @@
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-	
 	margin: auto;
 }
 
-.col-xs-12 {
-	margin-left: 40px;
+col-xs-12 {
+	margin-left: 10px;
+}
+col-xl-4 img {
+	height: 5rem;
 }
