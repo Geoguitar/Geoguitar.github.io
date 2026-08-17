@@ -1,59 +1,80 @@
-.header-site{
-	background-image: url(../img/big-data.png);
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	color: #ffffff;
-	padding-top: 150px;
-	padding-bottom: 300px;
+/* =========================================
+   ESTILOS GERAIS E SEÇÕES
+   ========================================= */
+
+.header-site {
+    background-image: url('../img/big-data.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    /* Paddings reduzidos para melhor responsividade em dispositivos móveis */
+    padding: 100px 0; 
 }
 
-.content-site{
-	padding-top: 200px;
-	padding-bottom: 200px;
+.content-site {
+    /* Ajuste de espaçamento para não criar telas vazias no celular */
+    padding: 80px 0;
 }
 
-.img-site{
-	background-image: url(../img/big-data1.jpg);
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	color: #ffffff;
+.img-site {
+    background-image: url('../img/big-data1.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px 0;
+    color: #ffffff;
 }
 
-.footer-site{
-	background-color: #333333;
-	color: #ffffff;
-	padding-top: 30px;
-	padding-bottom: 30px;
+.footer-site {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 40px 0;
 }
 
-.div img {
-	width: 200px;
-	height: 200px;
-	overflow: auto;
+/* =========================================
+   ESTILOS DE IMAGENS E COMPONENTES
+   ========================================= */
+
+/* Classe específica recomendada para substituir o antigo .div img */
+.img-destaque {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Mantém a proporção da imagem sem distorcer */
+    border-radius: 8px; /* Opcional: bordas arredondadas suaves */
 }
 
-.foto_perfil img {
-	height: 2rem;
-}
-
+/* Ajustes no container da Foto de Perfil */
 .foto_perfil {
-	display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
-	margin: auto;
+    margin: 0 auto;
+    width: 150px; /* Definindo largura fixa para o circulo */
+    height: 150px; /* Definindo altura fixa para o circulo */
 }
 
-col-xs-12 {
-	margin-left: 10px;
+.foto_perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-col-xl-4 img {
-	height: 5rem;
+
+/* =========================================
+   CORREÇÕES DE GRID (BOOTSTRAP)
+   ========================================= */
+
+/* Correção de sintaxe: adicionado o ponto. 
+   Evite margins fixas no grid do Bootstrap, mas caso precise: */
+.col-12 {
+    /* margin-left: 10px; (Removido, pois quebra o alinhamento das colunas do Bootstrap) */
+}
+
+.col-xl-4 img {
+    height: 5rem;
+    object-fit: cover;
 }
